@@ -1,0 +1,12 @@
+{
+    "Url": "https://www.groundtruth.fr",
+    "FileName": "019795cd-d5c6-48ac-be0b-8c5e95d1e213.pdf",
+    "FileDirectory": "",
+    "ImageDirectory": "",
+    "FrontDefaultStringsMatcher": "",
+    "StatusCode": 200,
+    "Body": "[{\"prediction\": \"Cat\", \"values\": [0.9998010396957397, 0.9220441579818726, 0.9063140153884888]}]",
+    "Headers": [],
+    "TimeMs": 0,
+    "TicksAt": 0
+}

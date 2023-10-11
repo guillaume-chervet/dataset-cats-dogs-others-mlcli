@@ -1,0 +1,12 @@
+{
+    "Url": "https://www.groundtruth.fr",
+    "FileName": "0130273e-149b-4405-9299-85701ab10fec.pdf",
+    "FileDirectory": "",
+    "ImageDirectory": "",
+    "FrontDefaultStringsMatcher": "",
+    "StatusCode": 200,
+    "Body": "[{\"prediction\": \"Cat\", \"values\": [1.0, 0.9778375029563904, 0.9999780654907227]}, {\"prediction\": \"Cat\", \"values\": [0.9817788600921631, 0.7539662718772888, 0.8176363110542297]}, {\"prediction\": \"Cat\", \"values\": [1.0, 0.7468153238296509, 0.9999993443489075]}, {\"prediction\": \"Cat\", \"values\": [1.0, 0.9995436072349548, 0.9181258678436279]}]",
+    "Headers": [],
+    "TimeMs": 0,
+    "TicksAt": 0
+}

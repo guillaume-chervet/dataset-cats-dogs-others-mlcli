@@ -1,0 +1,12 @@
+{
+    "Url": "https://www.groundtruth.fr",
+    "FileName": "02207bb9-f281-4668-b87b-69e5831f5be7.pdf",
+    "FileDirectory": "",
+    "ImageDirectory": "",
+    "FrontDefaultStringsMatcher": "",
+    "StatusCode": 200,
+    "Body": "[{\"prediction\": \"Cat\", \"values\": [0.9999997019767761, 0.9999725222587585, 0.9999973773956299]}, {\"prediction\": \"Dog\", \"values\": [9.507082553389216e-15, 1.0, 6.885296499614668e-11]}, {\"prediction\": \"Cat\", \"values\": [1.0, 0.09915920346975327, 1.0]}, {\"prediction\": \"Other\", \"values\": [0.008660591207444668, 0.004319787956774235, 0.9795205593109131]}, {\"prediction\": \"Dog\", \"values\": [0.9999949932098389, 0.9999974966049194, 0.5623544454574585]}, {\"prediction\": \"Cat\", \"values\": [0.9999855756759644, 0.9411903023719788, 0.962388277053833]}, {\"prediction\": \"Cat\", \"values\": [1.0, 0.97990882396698, 0.8774737119674683]}]",
+    "Headers": [],
+    "TimeMs": 0,
+    "TicksAt": 0
+}

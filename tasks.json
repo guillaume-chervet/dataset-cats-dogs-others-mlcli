@@ -1,0 +1,31 @@
+[
+	{
+		"type": "callapi",
+		"enabled": true,
+		"enabledSaveImages":false,
+		"outputDirectoryImages": "",
+		"fileDirectory": "cats-dogs-others/mlcli_pillow",
+		"outputDirectoryJsons": "cats-dogs-others/pillow-jsons-{start-date}",
+		"numberParallel": 1,
+		"url" :"http://cats-dogs-yolo.northeurope.azurecontainer.io:5000/upload"
+	},
+	{
+		"type": "callapi",
+		"enabled": true,
+		"enabledSaveImages":false,
+		"outputDirectoryImages": "",
+		"fileDirectory": "cats-dogs-others/mlcli_opencv",
+		"outputDirectoryJsons": "cats-dogs-others/opencv-jsons-{start-date}",
+		"numberParallel": 1,
+		"url" :"http://cats-dogs-yolo.northeurope.azurecontainer.io:5000/upload"
+	},
+	{
+		"type": "compare",
+		"enabled": true,
+		"onFileNotFound": "warning",
+		"leftDirectory": "cats-dogs-others/opencv-jsons-{start-date}",
+		"rightDirectory": "cats-dogs-others/pillow-jsons-{start-date}",
+		"outputDirectory": "cats-dogs-others",
+		"fileName": "compare-cats-dogs-others-{start-date}.json"
+	},
+]
